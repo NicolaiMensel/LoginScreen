@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    </head>
+    <body>
+        <div class="login-page" style="position:relative">
+        <div class="form">
+            <form class="register-form" style="display: none;">
+                <h1>Register</h1>
+                <input id="create-name" type="text" placeholder="name" />
+                <input id="create-pw" type="password" placeholder="password" />
+                <input id="create-email" type="text" placeholder="email address" />
+                </br>
+                <button id="create">create</button>
+                <p id="toogle-signin" class="message">Already registered? <a>Sign In</a></p>
+                </form>
+                <form class="login-form">
+                    <h1>Login</h1>
+                    <input id="username" class="inputDiv" placeholder="username"></input>
+                    <input type="password" id="password" class="inputDiv" placeholder="password"></input>
+                    <button id="loginBtn" class="btn btn-primary">login</button>
+                    <p id="lostpasswordBtn">Lost password?<a> Click here!</a></p>
+                    <p id="toogle-create" class="message">Not registered?<a> Click Here!</a></p>
+                </form>
+        </div>
+        </div>
+
+        <div class="loggedin-page" style="display: none;">
+        <h1>Welcome to the page</h1>
+        <h3>List of users</h3>
+        <ul id="userlist"></ul>
+        <!--<a id="logout" style="position:absolute; top:0; right:0;"><i style="cursor: pointer;" class="fa fa-sign-out" aria-hidden="true"></i></a>-->
+        <button id=logout class="btn btn-primary">Logout</button>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,31 @@
+
+.form{
+    height: 24%;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 25px; 
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 14%;
+    background-color: aliceblue;
+}
+
+.inputDiv{
+    width: 150px;
+    text-align: center;
+    border: 0px;
+}
+
+.btn{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.login-page{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    border: 2px solid black;
+    background-image: url("https://4.bp.blogspot.com/-wvq4f9z4pm8/U5iZnK4P0AI/AAAAAAAA9wA/f2mvUtM5zqo/s0/Sunshine+at+dusk_Ultra+HD.jpg");
+}
